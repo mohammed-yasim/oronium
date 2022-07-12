@@ -69,3 +69,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # oronium
+
+>>Clone this Repo
+
+https://github.com/mohammed-yasim/oronium.git
+
+>> install nodemodules
+
+npm i --also=dev
+
+>> FrontEnd
+
+npm start
+
+>> Backend
+
+npm run api
+
+current Data in database
+
+Artist >>> yasim@mail.com 123
+Non Artist >>> martin@mail.com 123
+
+to Manage Database: Download SqliteBrowser
