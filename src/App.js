@@ -28,7 +28,7 @@ function ArtistOnboard() {
   return (
     <>
                 <div style={{display:'flex',justifyContent:'right'}}><NavLink className="button" to="/logout">Logout</NavLink></div>
-<img src={screenshot}/>
+<img alt="screenshot" src={screenshot}/>
     </>
   )
 }

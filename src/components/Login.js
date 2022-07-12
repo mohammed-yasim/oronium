@@ -26,7 +26,7 @@ function Login() {
         console.log(object)
         API.post('login', object).then((response) => {
             setUserSession(response.data.token);
-            if(response.data.user=='artist'){
+            if(response.data.user==='artist'){
                 history.push('/artist_onboard');
             }else{
                 history.push('/');
